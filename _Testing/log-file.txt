@@ -1,0 +1,269 @@
+[Start]
+2008-01-19 13:19:20,855 [4] INFO  _Default - Application Started
+2008-01-19 13:19:20,965 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:20,980 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:20,996 [11] WARN  Crawl.Workers - HostToProcess Queue is empty. Sleeping 10000
+2008-01-19 13:19:21,027 [9] WARN  Crawl.Workers - LocalUrl Queue is empty. Sleeping 10000
+2008-01-19 13:19:21,027 [10] WARN  Crawl.Workers - RemoteUrl Queue is empty. Sleeping 10000
+2008-01-19 13:19:21,043 [8] WARN  Crawl.Workers - FeedUrl Queue is empty. Sleeping 10000
+2008-01-19 13:19:21,121 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,121 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,121 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,121 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,121 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,121 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,121 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,121 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,137 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,137 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,137 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,137 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,137 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,137 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,137 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,137 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,137 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,137 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,137 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,137 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,137 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,137 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,137 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,137 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,137 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,137 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,137 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,137 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,152 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,152 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,152 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,152 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,152 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,152 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,152 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,152 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,152 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,152 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,152 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,152 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,152 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,152 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,152 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,152 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,152 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,152 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,152 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,152 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,152 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,152 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,152 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,152 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,168 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,168 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,168 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,168 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,168 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,168 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,168 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,168 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,168 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,168 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:21,168 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:19:21,168 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,168 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:19:21,168 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:19:30,996 [11] INFO  Crawl.WebBrowser - Begin browsing of Host http://www.sessford.ca/
+2008-01-19 13:19:31,027 [9] WARN  Crawl.Workers - LocalUrl Queue is empty. Sleeping 10000
+2008-01-19 13:19:31,043 [10] WARN  Crawl.Workers - RemoteUrl Queue is empty. Sleeping 10000
+2008-01-19 13:19:31,074 [8] WARN  Crawl.Workers - FeedUrl Queue is empty. Sleeping 10000
+2008-01-19 13:19:41,027 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/index.htm to DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/index.htm from DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/photo.htm to DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/photo.htm from DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/guestbook.aspx to DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/guestbook.aspx from DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/aboutus.htm to DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/aboutus.htm from DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/contact_us.htm to DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/contact_us.htm from DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/links.htm to DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/links.htm from DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/june and july 06.htm to DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/june and july 06.htm from DB.
+2008-01-19 13:19:41,043 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/winter_2007.htm to DB.
+2008-01-19 13:19:41,058 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/winter_2007.htm from DB.
+2008-01-19 13:19:41,058 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/toppage3.htm to DB.
+2008-01-19 13:19:41,058 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/toppage3.htm from DB.
+2008-01-19 13:19:41,058 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/toppage2.htm to DB.
+2008-01-19 13:19:41,058 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/toppage2.htm from DB.
+2008-01-19 13:19:41,058 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/jacob_william.htm to DB.
+2008-01-19 13:19:41,058 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/jacob_william.htm from DB.
+2008-01-19 13:19:41,058 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/spring_2007_cont'd.htm to DB.
+2008-01-19 13:19:41,058 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/spring_2007_cont'd.htm from DB.
+2008-01-19 13:19:41,058 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/spring 2007.htm to DB.
+2008-01-19 13:19:41,058 [10] DEBUG Crawl.Data - Begin inserting host http://www.dropshots.com to DB.
+2008-01-19 13:19:41,058 [10] DEBUG Crawl.Data - Begin checking if host http://www.dropshots.com exists in DB.
+2008-01-19 13:19:41,074 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/spring 2007.htm from DB.
+2008-01-19 13:19:41,074 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/winter_2006.htm to DB.
+2008-01-19 13:19:41,074 [8] WARN  Crawl.Workers - FeedUrl Queue is empty. Sleeping 10000
+2008-01-19 13:19:41,090 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/winter_2006.htm from DB.
+2008-01-19 13:19:41,090 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/1st_birthday.htm to DB.
+2008-01-19 13:19:41,090 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/1st_birthday.htm from DB.
+2008-01-19 13:19:41,090 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/fall_cont'd.htm to DB.
+2008-01-19 13:19:41,090 [10] DEBUG Crawl.Data - Host http://www.dropshots.com does not exist in DB.
+2008-01-19 13:19:41,090 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/fall_cont'd.htm from DB.
+2008-01-19 13:19:41,090 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/fall 2006.htm to DB.
+2008-01-19 13:19:41,090 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/fall 2006.htm from DB.
+2008-01-19 13:19:41,090 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/august and on.htm to DB.
+2008-01-19 13:19:41,090 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/august and on.htm from DB.
+2008-01-19 13:19:41,090 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/trip out west 2006.htm to DB.
+2008-01-19 13:19:41,090 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/trip out west 2006.htm from DB.
+2008-01-19 13:19:41,090 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/april and may 06.htm to DB.
+2008-01-19 13:19:41,105 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/april and may 06.htm from DB.
+2008-01-19 13:19:41,105 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/feb and march 06.htm to DB.
+2008-01-19 13:19:41,105 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/feb and march 06.htm from DB.
+2008-01-19 13:19:41,105 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/first three months.htm to DB.
+2008-01-19 13:19:41,105 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/first three months.htm from DB.
+2008-01-19 13:19:41,105 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/photosottawa0106.htm to DB.
+2008-01-19 13:19:41,105 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/photosottawa0106.htm from DB.
+2008-01-19 13:19:41,105 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.sessford.ca/travels.htm to DB.
+2008-01-19 13:19:41,105 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.sessford.ca/travels.htm from DB.
+2008-01-19 13:19:41,105 [9] WARN  Crawl.Workers - LocalUrl Queue is empty. Sleeping 10000
+2008-01-19 13:19:41,121 [10] DEBUG Crawl.Data - End inserting Host http://www.dropshots.com to DB.
+2008-01-19 13:19:41,121 [10] DEBUG Crawl.Data - Begin inserting DeepLink http://www.dropshots.com/sessford1 to DB.
+2008-01-19 13:19:41,121 [10] DEBUG Crawl.Data - Begin checking if DeepLink http://www.dropshots.com/sessford1 exists in DB.
+2008-01-19 13:19:41,121 [10] DEBUG Crawl.Data - DeepLink http://www.dropshots.com/sessford1 exists in DB.
+2008-01-19 13:19:41,121 [10] DEBUG Crawl.Data - End inserting DeepLink http://www.dropshots.com/sessford1 to DB.
+2008-01-19 13:19:41,121 [10] DEBUG Crawl.Data - Begin inserting host http://www.thesessfords.com to DB.
+2008-01-19 13:19:41,121 [10] DEBUG Crawl.Data - Begin checking if host http://www.thesessfords.com exists in DB.
+2008-01-19 13:19:41,121 [10] DEBUG Crawl.Data - Host http://www.thesessfords.com does not exist in DB.
+2008-01-19 13:19:41,152 [10] DEBUG Crawl.Data - End inserting Host http://www.thesessfords.com to DB.
+2008-01-19 13:19:41,152 [10] DEBUG Crawl.Data - Begin inserting host http://www.emfast.com to DB.
+2008-01-19 13:19:41,152 [10] DEBUG Crawl.Data - Begin checking if host http://www.emfast.com exists in DB.
+2008-01-19 13:19:41,152 [10] DEBUG Crawl.Data - Host http://www.emfast.com does not exist in DB.
+2008-01-19 13:19:41,199 [10] DEBUG Crawl.Data - End inserting Host http://www.emfast.com to DB.
+2008-01-19 13:19:41,199 [10] DEBUG Crawl.Data - Begin inserting host http://www.hyundaicanada.com to DB.
+2008-01-19 13:19:41,199 [10] DEBUG Crawl.Data - Begin checking if host http://www.hyundaicanada.com exists in DB.
+2008-01-19 13:19:41,199 [10] DEBUG Crawl.Data - Host http://www.hyundaicanada.com does not exist in DB.
+2008-01-19 13:19:41,230 [10] DEBUG Crawl.Data - End inserting Host http://www.hyundaicanada.com to DB.
+2008-01-19 13:19:41,230 [10] DEBUG Crawl.Data - Begin inserting host http://www.crossroadsinajax.org to DB.
+2008-01-19 13:19:41,230 [10] DEBUG Crawl.Data - Begin checking if host http://www.crossroadsinajax.org exists in DB.
+2008-01-19 13:19:41,230 [10] DEBUG Crawl.Data - Host http://www.crossroadsinajax.org exists in DB.
+2008-01-19 13:19:41,230 [10] DEBUG Crawl.Data - End inserting Host http://www.crossroadsinajax.org to DB.
+2008-01-19 13:19:41,230 [10] DEBUG Crawl.Data - Begin inserting host http://www.babycenter.com to DB.
+2008-01-19 13:19:41,230 [10] DEBUG Crawl.Data - Begin checking if host http://www.babycenter.com exists in DB.
+2008-01-19 13:19:41,230 [10] DEBUG Crawl.Data - Host http://www.babycenter.com does not exist in DB.
+2008-01-19 13:19:41,262 [10] DEBUG Crawl.Data - End inserting Host http://www.babycenter.com to DB.
+2008-01-19 13:19:41,262 [10] WARN  Crawl.Workers - RemoteUrl Queue is empty. Sleeping 10000
+2008-01-19 13:19:51,090 [8] WARN  Crawl.Workers - FeedUrl Queue is empty. Sleeping 10000
+2008-01-19 13:19:51,121 [9] WARN  Crawl.Workers - LocalUrl Queue is empty. Sleeping 10000
+2008-01-19 13:19:51,277 [10] WARN  Crawl.Workers - RemoteUrl Queue is empty. Sleeping 10000
+2008-01-19 13:19:58,340 [11] INFO  Crawl.WebBrowser - End browsing of Host http://www.sessford.ca/
+2008-01-19 13:19:58,340 [11] DEBUG Crawl.Data - Begin updating last visited host http://www.sessford.ca
+2008-01-19 13:19:58,371 [11] DEBUG Crawl.Data - End updating last visited host http://www.sessford.ca
+2008-01-19 13:19:58,371 [11] INFO  Crawl.WebBrowser - Begin browsing of Host http://www.crossroadsinajax.org/
+2008-01-19 13:20:01,090 [8] WARN  Crawl.Workers - FeedUrl Queue is empty. Sleeping 10000
+2008-01-19 13:20:01,121 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/aboutus.htm to DB.
+2008-01-19 13:20:01,121 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/aboutus.htm from DB.
+2008-01-19 13:20:01,121 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/ministries.htm to DB.
+2008-01-19 13:20:01,121 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/ministries.htm from DB.
+2008-01-19 13:20:01,121 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/events.htm to DB.
+2008-01-19 13:20:01,121 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/events.htm from DB.
+2008-01-19 13:20:01,121 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/resources.htm to DB.
+2008-01-19 13:20:01,121 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/resources.htm from DB.
+2008-01-19 13:20:01,121 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/directions.htm to DB.
+2008-01-19 13:20:01,121 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/directions.htm from DB.
+2008-01-19 13:20:01,121 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/contactus.htm to DB.
+2008-01-19 13:20:01,137 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/contactus.htm from DB.
+2008-01-19 13:20:01,137 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/index.htm to DB.
+2008-01-19 13:20:01,137 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/index.htm from DB.
+2008-01-19 13:20:01,137 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/ourvalues.htm to DB.
+2008-01-19 13:20:01,137 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/ourvalues.htm from DB.
+2008-01-19 13:20:01,137 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/testimonials.htm to DB.
+2008-01-19 13:20:01,137 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/testimonials.htm from DB.
+2008-01-19 13:20:01,137 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/ourstaff.htm to DB.
+2008-01-19 13:20:01,137 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/ourstaff.htm from DB.
+2008-01-19 13:20:01,137 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/ourbeliefs.htm to DB.
+2008-01-19 13:20:01,137 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/ourbeliefs.htm from DB.
+2008-01-19 13:20:01,137 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/ourhistory.htm to DB.
+2008-01-19 13:20:01,137 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/ourhistory.htm from DB.
+2008-01-19 13:20:01,152 [9] WARN  Crawl.Workers - LocalUrl Queue is empty. Sleeping 10000
+2008-01-19 13:20:01,168 [12] INFO  Crawl.Workers - Begin Reloading Queue with 32 items
+2008-01-19 13:20:01,168 [12] DEBUG Crawl.Data - Begin retrieving 256 max hosts from DB.
+2008-01-19 13:20:01,168 [12] DEBUG Crawl.Data - End retrieving 256 max hosts from DB.
+2008-01-19 13:20:01,168 [12] INFO  Crawl.Workers - End Reloading QUeue with 32 items
+2008-01-19 13:20:01,277 [10] WARN  Crawl.Workers - RemoteUrl Queue is empty. Sleeping 10000
+2008-01-19 13:20:11,090 [8] WARN  Crawl.Workers - FeedUrl Queue is empty. Sleeping 10000
+2008-01-19 13:20:11,152 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/worship.htm to DB.
+2008-01-19 13:20:11,152 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/worship.htm from DB.
+2008-01-19 13:20:11,152 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/children.htm to DB.
+2008-01-19 13:20:11,152 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/children.htm from DB.
+2008-01-19 13:20:11,152 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/youth.htm to DB.
+2008-01-19 13:20:11,152 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/youth.htm from DB.
+2008-01-19 13:20:11,152 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/smallgroups.htm to DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/smallgroups.htm from DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/seminars.htm to DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/seminars.htm from DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/ministrycentre.htm to DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/ministrycentre.htm from DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/pearsonschool.htm to DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/pearsonschool.htm from DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/supportcare.htm to DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/supportcare.htm from DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/newsletters.htm to DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/newsletters.htm from DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/crossroadsfaq.htm to DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/crossroadsfaq.htm from DB.
+2008-01-19 13:20:11,168 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/spiritualqa.htm to DB.
+2008-01-19 13:20:11,183 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/spiritualqa.htm from DB.
+2008-01-19 13:20:11,183 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/studymaterial.htm to DB.
+2008-01-19 13:20:11,183 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/studymaterial.htm from DB.
+2008-01-19 13:20:11,183 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/links.htm to DB.
+2008-01-19 13:20:11,183 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/links.htm from DB.
+2008-01-19 13:20:11,183 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/alissaduhasky.htm to DB.
+2008-01-19 13:20:11,183 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/alissaduhasky.htm from DB.
+2008-01-19 13:20:11,183 [9] DEBUG Crawl.Data - Begin deleting DeepLink http://www.crossroadsinajax.org/nancyvanderwel.htm to DB.
+2008-01-19 13:20:11,183 [9] DEBUG Crawl.Data - Deleted 0 DeepLink http://www.crossroadsinajax.org/nancyvanderwel.htm from DB.
+2008-01-19 13:20:11,183 [9] WARN  Crawl.Workers - LocalUrl Queue is empty. Sleeping 10000
+2008-01-19 13:20:11,277 [10] WARN  Crawl.Workers - RemoteUrl Queue is empty. Sleeping 10000
+2008-01-19 13:20:20,965 [4] INFO  Crawl.Program - Begin Application Shutdown
+2008-01-19 13:20:21,277 [10] DEBUG Crawl.Data - Begin inserting host http://www.crcna.org to DB.
+2008-01-19 13:20:21,277 [10] DEBUG Crawl.Data - Begin checking if host http://www.crcna.org exists in DB.
+2008-01-19 13:20:21,293 [10] DEBUG Crawl.Data - Host http://www.crcna.org does not exist in DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - End inserting Host http://www.crcna.org to DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - Begin inserting host http://www.crcna.org to DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - Begin checking if host http://www.crcna.org exists in DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - Host http://www.crcna.org exists in DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - End inserting Host http://www.crcna.org to DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - Begin inserting DeepLink http://www.crcna.org/pages/apostles_creed.cfm to DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - Begin checking if DeepLink http://www.crcna.org/pages/apostles_creed.cfm exists in DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - DeepLink http://www.crcna.org/pages/apostles_creed.cfm exists in DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - End inserting DeepLink http://www.crcna.org/pages/apostles_creed.cfm to DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - Begin inserting host http://www.crcna.org to DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - Begin checking if host http://www.crcna.org exists in DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - Host http://www.crcna.org exists in DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - End inserting Host http://www.crcna.org to DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - Begin inserting DeepLink http://www.crcna.org/pages/heidelberg_main.cfm to DB.
+2008-01-19 13:20:21,308 [10] DEBUG Crawl.Data - Begin checking if DeepLink http://www.crcna.org/pages/heidelberg_main.cfm exists in DB.
+2008-01-19 13:20:21,324 [10] DEBUG Crawl.Data - DeepLink http://www.crcna.org/pages/heidelberg_main.cfm exists in DB.
+2008-01-19 13:20:21,324 [10] DEBUG Crawl.Data - End inserting DeepLink http://www.crcna.org/pages/heidelberg_main.cfm to DB.
+2008-01-19 13:20:21,324 [10] DEBUG Crawl.Data - Begin inserting host http://www.crcna.org to DB.
+2008-01-19 13:20:21,324 [10] DEBUG Crawl.Data - Begin checking if host http://www.crcna.org exists in DB.
+2008-01-19 13:20:21,324 [10] DEBUG Crawl.Data - Host http://www.crcna.org exists in DB.
+2008-01-19 13:20:21,324 [10] DEBUG Crawl.Data - End inserting Host http://www.crcna.org to DB.
+2008-01-19 13:20:21,324 [10] DEBUG Crawl.Data - Begin inserting DeepLink http://www.crcna.org/pages/our_world_main.cfm to DB.
+2008-01-19 13:20:21,324 [10] DEBUG Crawl.Data - Begin checking if DeepLink http://www.crcna.org/pages/our_world_main.cfm exists in DB.
+2008-01-19 13:20:21,324 [10] DEBUG Crawl.Data - DeepLink http://www.crcna.org/pages/our_world_main.cfm exists in DB.
+2008-01-19 13:20:21,324 [10] DEBUG Crawl.Data - End inserting DeepLink http://www.crcna.org/pages/our_world_main.cfm to DB.
+2008-01-19 13:20:21,324 [10] DEBUG Crawl.Data - Begin inserting host http://www.alphacanada.org to DB.
+2008-01-19 13:20:21,324 [10] DEBUG Crawl.Data - Begin checking if host http://www.alphacanada.org exists in DB.
+2008-01-19 13:20:21,324 [10] DEBUG Crawl.Data - Host http://www.alphacanada.org does not exist in DB.
+2008-01-19 13:20:21,355 [10] DEBUG Crawl.Data - End inserting Host http://www.alphacanada.org to DB.
+2008-01-19 13:20:22,168 [11] WARN  Crawl.WebBrowser - Browsing of Host http://www.crossroadsinajax.org/ not completed.
+2008-01-19 13:20:22,168 [11] INFO  Crawl.WebBrowser - End browsing of Host http://www.crossroadsinajax.org/
+2008-01-19 13:20:22,168 [11] DEBUG Crawl.Data - Begin updating last visited host http://www.crossroadsinajax.org
+2008-01-19 13:20:22,215 [11] DEBUG Crawl.Data - End updating last visited host http://www.crossroadsinajax.org
+2008-01-19 13:20:22,215 [4] INFO  _Default - Exiting Application
+[End]
+[Start]
+[End]

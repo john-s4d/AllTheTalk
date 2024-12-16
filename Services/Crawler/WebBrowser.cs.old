@@ -1,0 +1,333 @@
+using System;
+using System.Text;
+using System.Data;
+using System.Web;
+using System.Net;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using HtmlAgilityPack;
+
+namespace AllTheTalk.Crawl {
+
+	public class WebBrowser {
+
+		// TODO: Use hashtable for LocalUri to speed up searching for duplicates?
+		// TODO: Send externalUrls and feedUrls directly to Database when found
+
+		private Uri _startUri;
+		private Uri _currentUri;
+		private ArrayList _deniedUrls;
+		private ArrayList _localUrls;
+		private ArrayList _externalUrls;
+		private ArrayList _feedUrls;
+
+		public Uri[] FoundFeedUrls {
+			get { return _FeedUrls.ToArray(typeof(Uri)); }
+		}
+		public Uri[] FoundExternalUrls {
+			get { return _ExternalUrls.ToArray(typeof(Uri)); }
+		}
+
+		public Uri StartUri {
+			get { return _startUri; }
+			set { _startUri = value; }
+		}
+
+		WebBrowser() {
+
+		}
+
+		WebBrowser(Uri StartUri)
+			: this() {
+			_startUri = StartUri;
+		}
+
+		public void Run() {
+
+			if (_startUri == null) {
+				return;
+			}
+
+			_localUrls = new ArrayList();
+			_externalUrls = new ArrayList();
+			_feedUrls = new ArrayList();
+
+			_localUrls.Add(_startUri);
+
+			LoadDenyList();
+
+			// TODO: Load sitemap xml
+
+			Int64 counter = 0;
+
+			while (counter < _localUrls.Count) {
+
+				_currentUri = (Uri)_localUrls[counter++];
+
+				if (!UriDenied(currentUri)) {
+					ProcessUrl(currentUri);
+				}
+
+				// TODO: Handle sites with infinite pages
+
+				// Browse at a comfortable pace
+				System.Threading.Thread.Sleep(Config.CrawlerWaitTime);
+			}
+		}
+
+		private Boolean UriDenied(Uri UriToCheck) {
+
+			foreach (String deniedUriString in _deniedUrls) {
+				if (UriToCheck.PathAndQuery.StartsWith(deniedUriString)) {
+					return true;
+				}
+			}
+			return false;
+		}
+
+		private void LoadDenyList() {
+
+			HttpWebRequest request = GetWebRequest(new Uri(Uri.GetLeftPart(UriPartial.Authority), "robots.txt"));
+			HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+			if ((response.StatusCode == HttpStatusCode.OK) && (response.ContentType == "text/plain")) {
+
+				_deniedUrls = new ArrayList();
+
+				Stream rs = response.GetResponseStream();
+				StreamReader sr = new StreamReader(rs, response.ContentEncoding);
+
+				String line;
+				Boolean lineIsSpecific = false;
+				Boolean lineIsGlobal = false;
+				Boolean listIsSpecific = false;
+
+				while ((line = sr.ReadLine()) != null) {
+
+					line = line.Trim();
+
+					// Skip # commented lines
+					if (line.StartsWith("#"))
+						continue;
+
+					//TODO: Try / Catch
+
+					if (line.StartsWith("user-agent", StringComparison.OrdinalIgnoreCase)) {
+
+						//TODO: Check for 'Off by One' error
+						string agent = (line.Substring(line.IndexOf(":") + 1).Trim());
+
+						if (agent == "*") {
+							lineIsSpecific = false;
+							lineIsGlobal = true;
+						}
+						else if ((agent.ToLower() == "allthetalk") || (agent.ToLower() == "allthetalk crawler")) {
+							lineIsSpecific = true;
+							lineIsGlobal = false;
+							if (!listIsSpecific) {
+								_deniedUrls.Clear();
+								listIsSpecific = true;
+							}
+						}
+						else {
+							lineIsSpecific = false;
+							lineIsGlobal = false;
+						}
+						continue;
+					}
+					// TODO: !!! Check Logic
+					if ((((!listIsSpecific) && (lineIsGlobal)) || (lineIsSpecific)) && (line.StartsWith("disallow", StringComparison.OrdinalIgnoreCase))) {
+
+						//TODO: Check for 'Off by One' error
+						String item = line.Substring(line.IndexOf(":") + 1).Trim();
+
+						if (String.IsNullOrEmpty(item)) {
+							response.Close();
+							_deniedUrls.Clear;
+						}
+						else {
+							_deniedUrls.Add(item);
+						}
+					}
+				}
+			}
+			response.Close();
+		}
+
+		private HttpWebRequest GetWebRequest(Uri Uri) {
+
+			HttpWebRequest request = (HttpWebRequest)WebRequest.Create(Uri);
+
+			request.UserAgent = "AllTheTalk Crawler 1.0 (http://www.allthetalk.com/bots#crawler)";
+			request.Headers.Add("From", "crawler_bot(at)allthetalk.com");
+
+			return request;
+		}
+
+		private void ProcessUrl(Uri Uri) {
+
+			HttpWebRequest request = GetWebRequest(Uri);
+			HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+			// Ensure we did not get redirected to an external site
+			// TODO: Verify that this is actually necessary?
+			if (requestUri.Host.Equals(response.ResponseUri.Host)) {
+
+				switch (response.StatusCode) {
+
+					case HttpStatusCode.OK:
+						ProcessResponse(response);
+						break;
+
+					default:
+						// TODO: Handle other cases - Redirects, Not Found, etc...
+						break;
+				}
+			}
+			else {
+				_externalUrls.Add(response.ResponseUri);
+				// Data.FoundHost(response.ResponseUri);
+			}
+		}
+
+		private void ProcessResponse(HttpWebResponse WebResponse) {
+
+			bool processed = false;
+
+			foreach (String content in WebResponse.ContentType.Split(";")) {
+
+				switch (content.Trim().ToLower()) {
+
+					// Definitley a feed
+					case "application/rss+xml":
+					case "application/atom+xml":
+					case "application/rdf+xml":
+						_feedUrls.Add(WebResponse.ResponseUri);
+						processed = true;
+						break;
+
+					// Might be a feed, might be a web page
+					case "text/xml":
+					case "application/xml":
+					case "application/xhtml+xml":
+
+						HtmlDocument Document = GetHtmlDoc(WebResponse);
+						if (DocIsFeed(Document)) {
+							_feedUrls.Add(WebResponse.ResponseUri);
+						}
+						else {
+							ProcessHtmlDoc(Document);
+						}
+						processed = true;
+						break;
+
+					// Definitley not a feed, definitley a web page
+					case "text/html":
+						ProcessHtmlDoc(GetHtmlDoc(WebResponse));
+						processed = true;
+						break;
+
+					// Neither a feed nor a web page
+					default:
+						break;
+
+				}
+				if (processed)
+					break;
+			}
+		}
+
+		private Boolean DocIsFeed(HtmlDocument Document) {
+
+			if (Document.DocumentNode.HasChildNodes) {
+
+				foreach (HtmlNode node in Document.DocumentNode.ChildNodes) {
+
+					switch (node.Name.Trim().ToLower()) {
+
+						case "rss":
+						case "atom":
+						case "rdf":
+							return true;
+					}
+				}
+			}
+			return false;
+		}
+
+		private void ProcessHtmlDoc(HtmlDocument Document) {
+
+			// Check robots META tag
+			Boolean browsable = true;
+			foreach (HtmlNode node in Document.DocumentNode.SelectNodes("//html/head/meta[@name='robots']")) {
+
+				foreach (String content in node.Attributes["content"].Value.Split(",")) {
+					if (content = "nofollow") {
+						browsable = false;
+						break;
+					}
+				}
+			}
+
+			if (browsable) {
+
+				foreach (HtmlNode link in Document.DocumentNode.SelectNodes("//*@href")) {
+
+					// Check for rel="nofollow" attribute
+					HtmlAttribute rel = link.Attributes["rel"];
+					if ((rel == null) || (rel.Value != "nofollow")) {
+
+						HtmlAttribute href = link.Attributes["href"];
+						Uri linkUri = new Uri(href.Value, UriKind.RelativeOrAbsolute);
+						if (!linkUri.IsAbsoluteUri)
+							linkUri = new Uri(_currentUri.GetLeftPart(UriPartial.Authority), linkUri);
+
+						HtmlAttribute contentType = link.Attributes["content-type"];
+						if (contentType != null) {
+
+							switch (contentType.Value) {
+
+								case "application/rss+xml":
+								case "application/atom+xml":
+								case "application/rdf+xml":
+									// This is a feed - process it and go to the next link
+									_feedUrls.Add(linkUri);
+									continue;
+
+								case "text/xml":
+								case "text/html":
+								case "application/xml":
+								case "application/xhtml+xml":
+									break;
+
+								default:
+									// Target is not Readable - skip the rest of the processing for this link
+									continue;
+							}
+						}
+
+						if (_currentUri.GetLeftPart(UriPartial.Authority).Equals(linkUri.GetLeftPart(UriPartial.Authority), StringComparison.OrdinalIgnoreCase)) {
+							// Local Url - add it to the list of urls to browse this session.
+							if (!_localUrls.Contains(linkUri))
+								_localUrls.Add(linkUri);
+						}
+						else {
+							// Remote Url - add it to the database for further processing
+							_externalUrls.Add(linkUri);
+						}
+					}
+				}
+			}
+		}
+
+		private HtmlDocument GetHtmlDoc(HttpWebResponse WebResponse) {
+
+			HtmlDocument html = new HtmlDocument();
+			html.Load(WebResponse.GetResponseStream(), Encoding.GetEncoding(WebResponse.ContentEncoding), true);
+			WebResponse.Close();
+			return html;
+
+		}
+	}
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>AllTheTalk Bots</title>
+</head>
+<body>
+	<p>
+		AllTheTalk.com is a website dedicated to categorizing and distributing relevant
+		syndicated content throughout the web. This is done using two automated applications
+		("Bots") to find a read information available on the world wide web. The AllTheTalk
+		Bots are designed to according to industry standards. They will check and adhere
+		to robots.txt files and to META tags. They will also browse hosts at a comfortable
+		to prevent overloading of any servers.</p>
+	<p>
+		<strong>Webmasters: </strong>If you believe the there is a problem with the methods
+		the Bots use to browse and retrieve information from your site, please send an email
+		to info@allthetalk.com with your concerns.</p>
+	<hr />
+	<a id="crawler" />
+	<p>
+		The <strong>AllTheTalk Crawler</strong> searches the world wide web for pages that
+		contain informative syndicated content, specifically RSS or Atom Feeds.<br />
+		There are two methods to prevent The AllTheTalk Crawler from following links on
+		your pages to other pages or documents:</p>
+	<p>
+		1.Place the following meta tag in the head of your HTML document:<br />
+		&lt;META NAME="AllTheTalk Crawler" CONTENT="nofollow"&gt;</p>
+	<p>
+		2. Add the following entry to your robots.txt file:<br />
+		user-agent: AllTheTalk Crawler<br />
+		disallow: /</p>
+	<p>
+		To learn more about meta tags and the robot.txt file, please refer to <a href="http://www.robotstxt.org">
+			http://www.robotstxt.org</a>.</p>
+	<p>
+		If you have any questions or concerns, please contact via email: crawler_bot@allthetalk.com
+		or info@allthetalk.com</p>
+	<hr />
+	<p>
+		<a id="feeder" />The <strong>AllTheTalk Feeder </strong>retrieives syndicated content
+		from RSS or Atom Feeds.</p>
+	<p>
+		If you wish to prevent The AllTheTalk Feeder from retrieving content from any feeds
+		on your site:</p>
+	<p>
+		Add the following entry to your robots.txt file:<br />
+		user-agent: AllTheTalk Feeder<br />
+		disallow: /</p>
+	<p>
+		If you wish to prevent the AllTheTalkFeeder from retrieving content from a specific
+		feed on your site:</p>
+	<p>
+		Add the following entry to your robots.txt file:</p>
+	<p>
+		user-agent: AllTheTalk Feeder<br />
+		disallow: /feedname.xml
+	</p>
+	<p>
+		where feedname.xml is the file that contains the feed data.</p>
+	<p>
+		To learn more about meta tags and the robot.txt file, please refer to <a href="http://www.robotstxt.org">
+			http://www.robotstxt.org</a>.</p>
+	<p>
+		If you have any questions or concerns, please contact via email: feeder_bot@allthetalk.com
+		or info@allthetalk.com</p>
+</body>
+</html>

@@ -1,0 +1,150 @@
+﻿td {
+	font-size: 8pt;
+	font-family: Verdana, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 8pt;
+	font-family: Verdana, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+img {
+	border-width: 0;
+	vertical-align: bottom;
+}
+table {
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+}
+.left-column {
+	text-align: center;
+	width: 120px;
+}
+.right-column {
+	width: 120px;
+	vertical-align: top;
+}
+.left-column {
+	width: 120px;
+	vertical-align: top;
+}
+.content {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	text-align: justify;
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+}
+.ad-content-right {
+	float: right;
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.ad-content-left {
+	float: left;
+	margin-left: 0px;
+	margin-right: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.ad-content-lower {
+	float: Right;
+	margin-left: 20px;
+	margin-right: 0px;
+}
+.ad-column-right {
+	margin-top: 10px;
+}
+.ad-column-left {
+	margin-top: 10px;
+}
+.page {
+	text-align: center;
+	margin: 0px, 0px, 0px, 0px;
+	padding: 0px, 0px, 0px, 0px;
+}
+.pageholder {
+	width: 800px;
+	margin: 0 auto 0 auto;
+}
+.header {
+	width: 100%;
+}
+.header-ad {
+	width: 234px;
+	height: 60px;
+}
+.login {
+	width: 120px;
+	height: 60px;
+}
+.header-logo {
+	text-align: left;
+}
+.logo-main {
+	font-size: 24pt;
+	font-weight: bold;
+}
+.logo-tag {
+	font-size: 8pt;
+	font-style: italic;
+	font-weight: bold;
+}
+.input {
+	border: 1px #C0C0C0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	height: 14px;
+	border-style: solid;
+	}
+.content-title {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 16pt;
+	font-weight: bold;
+}
+.content-summary {
+	font-family: verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-style: italic;
+}
+.column-side {
+	padding-top: 10px;
+	text-align: Left;
+}
+a:link {
+	color: black;
+	font-weight: bolder;
+	font-style: normal;
+}
+a:visited {
+	color: black;
+	font-weight: bolder;
+	font-style: normal;
+}
+a:hover {
+	color: #0033CC;
+	font-weight: bolder;
+	font-style: normal;
+}
+a:active {
+	color: #0033CC;
+	font-weight: bolder;
+	font-style: normal;
+}
+.category-selected {
+	color: #0033CC;
+	font-weight: bold;
+	font-style: normal;
+}
+.input-button {
+	border-width: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border-style: outset;
+}
